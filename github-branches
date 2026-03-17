@@ -1,0 +1,9 @@
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ git branch -a > github-branches
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ cat github-branches
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ 
+

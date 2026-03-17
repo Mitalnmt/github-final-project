@@ -1,0 +1,16 @@
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+@Mitalnmt ➜ /workspaces/github-final-project (bug-fix-typo) $ git add README.md
+@Mitalnmt ➜ /workspaces/github-final-project (bug-fix-typo) $ git commit -m "fix typo"
+[bug-fix-typo a594e86] fix typo
+ 1 file changed, 1 insertion(+)
+@Mitalnmt ➜ /workspaces/github-final-project (bug-fix-typo) $ git checkout main > merge_branches 2>&1
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ git merge bug-fix-typo >> merge_branches 2>&1
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ cat merge_branches
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Updating 2cd8695..a594e86
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+@Mitalnmt ➜ /workspaces/github-final-project (main) $ 
